@@ -8,24 +8,8 @@
 
 /// Low value = High prio. Range 0(highest) - 15(lowest)
 enum {
-	/// Charge pump Input Capture timer
-	NVIC_Prio_chp = 1,
-	/// Output Compare timer
-	NVIC_Prio_timer = 2,
-	/// General timers
-	NVIC_Prio_general_timer = 3,
 	/// Debug UART
 	NVIC_Prio_uart = 4,
-	/// IIC
-	NVIC_Prio_i2c = 5,
-	/// CAN Pluto bus
-	NVIC_Prio_can_plutobus = 6,
-	/// CAN AUX
-	NVIC_Prio_can_aux = 7,
-	/// Delay
-	NVIC_Prio_delay = 10,
-	/// Delayed interrupt - Lowest priority
-	NVIC_Prio_delayed = 15
 };
 
 typedef enum IRQn {
